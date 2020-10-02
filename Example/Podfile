@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DebugSwift_Example' do
+  pod 'DebugSwift', :path => '../'
+
+  target 'DebugSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
