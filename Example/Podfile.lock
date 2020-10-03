@@ -1,0 +1,16 @@
+PODS:
+  - DebugSwift (0.1.0)
+
+DEPENDENCIES:
+  - DebugSwift (from `../`)
+
+EXTERNAL SOURCES:
+  DebugSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DebugSwift: 50b4b5362fd9186eca9acc05b41ed87966b5a59a
+
+PODFILE CHECKSUM: 1292cf2903a54e077762cc03b6d93d557d969553
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,22 @@
+{
+  "name": "DebugSwift",
+  "version": "0.1.0",
+  "summary": "A short description of DebugSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Svyat6868/DebugSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Svyat6868": "vasya6868@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Svyat6868/DebugSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DebugSwift/Classes/**/*"
+}
