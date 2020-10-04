@@ -1,42 +1,32 @@
 #
-# Be sure to run `pod lib lint DebugSwift.podspec' to ensure this is a
-# valid spec before submitting.
+#  Be sure to run `pod spec lint DebugSwift.podspec' to ensure this is a
+#  valid spec and to remove all comments including this before submitting the spec.
 #
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+#  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
+#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |s|
-  s.name             = 'DebugSwift'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DebugSwift.'
+Pod::Spec.new do |spec|
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  These will help people to find your library, and whilst it
+  #  can feel like a chore to fill in it's definitely to your advantage. The
+  #  summary should be tweet-length, and the description more in depth.
+  #
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  spec.name         = "DebugSwift"
+  spec.version      = "0.0.1"
+  spec.summary      = "A short description of DebugSwift."
+  spec.description  = "Be sure to run `pod spec lint DebugSwift.podspec' to ensure this is a valid spec and to remove all comments including this before submitting the spec."
+  spec.homepage     = "https://github.com/Svyat6868/DebugSwift"
 
-  s.homepage         = 'https://github.com/Svyat6868/DebugSwift'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Svyat6868' => 'vasya6868@gmail.com' }
-  s.source           = { :git => 'https://github.com/Svyat6868/DebugSwift.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  spec.license      = "MIT Freedom"
+  spec.author             = { "Vasyl" => "vasya6868@gmail.com" }
+  spec.platform     = :ios, "10.0"
+  spec.source       = { :git => "https://github.com/Svyat6868/DebugSwift.git", :tag => "#{spec.version}" }
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'DebugSwift/Classes/**/*'
+  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.exclude_files = "Classes/Exclude"
   
-  # s.resource_bundles = {
-  #   'DebugSwift' => ['DebugSwift/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
