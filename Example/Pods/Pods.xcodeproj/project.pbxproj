@@ -53,7 +53,8 @@
 		22D84792D2248C76901DB87F237A13CA /* Pods_DebugSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DebugSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33AB893F6D9BF616447306E388B467D6 /* Pods-DebugSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DebugSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4B2F8A942529B8B700199193 /* RandomText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomText.swift; sourceTree = "<group>"; };
+		4B2F8A9F2529B96500199193 /* RandomText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomText.swift; sourceTree = "<group>"; };
+		4B2F8AA02529B96500199193 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		6451B4D2783D06F5CDC3FC5FB67C4B29 /* Pods-DebugSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DebugSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		66DE1DD0DE9C0C71895C63726D085610 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6B85E3701BD06D402AC233E5DA0A8478 /* Pods-DebugSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DebugSwift_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -97,7 +98,7 @@
 		0A669079AD548CDFD4F63888D8D98BE4 /* DebugSwift */ = {
 			isa = PBXGroup;
 			children = (
-				4B2F8A932529B8B700199193 /* Classes */,
+				4B2F8A9E2529B96500199193 /* Classes */,
 				AEA86C73FF840EE7B1EA5B061FA94698 /* Pod */,
 				40DC0676EE4247A7EAC536251119B5C8 /* Support Files */,
 			);
@@ -132,10 +133,11 @@
 			path = "Example/Pods/Target Support Files/DebugSwift";
 			sourceTree = "<group>";
 		};
-		4B2F8A932529B8B700199193 /* Classes */ = {
+		4B2F8A9E2529B96500199193 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4B2F8A942529B8B700199193 /* RandomText.swift */,
+				4B2F8A9F2529B96500199193 /* RandomText.swift */,
+				4B2F8AA02529B96500199193 /* .gitkeep */,
 			);
 			name = Classes;
 			path = DebugSwift/Classes;
